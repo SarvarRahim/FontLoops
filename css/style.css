@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #2F2F2F;
+  font-family: 'Arial', sans-serif;
+}
+
+.chat-bgc {
+  width: 540px;
+  background-color: #FDEC51;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head__chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 28px;
+}
+
+.account__title {
+  padding-top: 25px;
+}
+
+.registration-group {
+  display: block;
+  width: 540px;
+  background-color: #fff;
+  padding: 40px;
+  padding-top: 55px;
+  box-shadow: 0px 0px 7px 0px #3b3b3b;
+}
+
+.registration-group::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/avatar.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+}
+
+.names-wrap {
+  display: flex;
+  width: 450px;
+}
+
+
+.title-input {
+  text-transform: uppercase;
+  color: #acaaaa;
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.input-reg {
+  display: block;
+  border: none;
+  border-bottom: 2px solid #d8d7d7;
+  margin-top: 11px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.footer {
+  text-decoration: none;
+  font-size: 17px;
+  color: #696223;
+  margin-right: 18px;
+}
